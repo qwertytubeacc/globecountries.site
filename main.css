@@ -1,0 +1,755 @@
+@charset "UTF-8";
+
+/* Basic CSS */
+body {
+  margin:0;
+  padding:0;
+	background-color: #dcdcdc;
+}
+
+h1 {
+  font-family:'Lilita One';
+  font-size:32px;
+}
+
+h2 {
+  font-family:'Concert One';
+  font-size:24px;
+}
+
+p {
+  font-family:'Sniglet';
+  font-size:16px;
+}
+/* Basic CSS End */
+
+
+
+/* Navigation Menu CSS */
+/* Basic Navigation Menu CSS */
+nav {
+	position:fixed;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:91px;
+	z-index:9999;
+	top:0;
+	background-color:#000;
+	opacity:0.95;
+	border-bottom:1px solid #dcdcdc;
+	box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+
+nav img {
+	position:absolute;
+	width:130px;
+	height:90px;
+	float:left;
+}
+/* Basic Navigation Menu CSS End */
+
+/* Navigation Menu for Larger Screens CSS End */
+nav ul {
+	float:right;
+	margin:0;
+	padding:0;
+	line-height:90px;
+	list-style:none;
+}
+
+nav ul li {
+  float:left;
+  list-style:none;
+  display:inline-block;
+}
+
+nav ul li a {
+  display:block;
+  text-decoration:none;
+  font-size:14pt;
+  font-family:'Fredoka One';
+  font-weight:bold;
+  color:#d4af37;
+  padding:0 14px;
+}
+
+nav ul li a:hover {
+	background-color:#111;
+  color:#ffd700;
+  border-top:5px solid #ffd700;
+  line-height:80px;
+}
+
+nav ul li #border-navigation-button{
+  border-top:5px solid #fd6a02;
+  color:#fd6a02;
+  line-height:80px;
+}
+/* Navigation Menu for Larger Screens CSS End */
+
+/* Navigation Menu for Smaller Screens CSS */
+#menu-icon {
+	position:absolute;
+	display:none;
+	line-height:90px;
+	right:2%;
+	color:#d4af37;
+	font-size:50px;
+}
+
+#sidebar {
+  position:fixed;
+  display:none;
+  width:300px;
+  height:100%;
+  margin-top:91px;
+  background-color:#000;
+  opacity:0.95;
+  right:-300px;
+  transition:all 250ms linear;
+}
+
+#sidebar.active {
+  right:0;
+}
+
+#sidebar ul li {
+  position:relative;
+  list-style:none;
+  color:#d4af37;
+  border-bottom:0.5px dashed #d4af37;
+  padding-top:10px;
+  padding-bottom:10px;
+  width:300px;
+  text-align:center;
+}
+
+#sidebar a i {
+  position:absolute;
+  font-size:30px;
+  top:37%;
+  left:10%;
+}
+
+#sidebar a img {
+  position:absolute;
+  width:50px;
+  height:50px;
+  top:27%;
+  left:7%;
+}
+/* Navigation Menu for Smaller Screens CSS End */
+/* Navigation Menu CSS End */
+
+
+
+/* Homepage Slider CSS */
+/* Slider Div Tags CSS*/
+.slider-container {
+  width:100%;
+  height:100%;
+  border:1px solid #000;
+  overflow:hidden;
+  margin:91px auto 0;
+  position:relative;
+}
+
+.slider {
+  display:flex;
+  width:100%;
+  height:100%;
+}
+/* Slider Div Tags CSS End */
+
+/* Slider Buttons CSS */
+.slider-container #prevBtn {
+  position:absolute;
+  color:#d4af37;
+  top:50%;
+  left:5%;
+  z-index:100;
+  font-size:50px;
+  opacity:0.8;
+}
+
+.slider-container #nextBtn {
+  position:absolute;
+  color:#d4af37;
+  top:50%;
+  right:5%;
+  z-index:100;
+  font-size:50px;
+  opacity:0.8;
+}
+/* Slider Buttons CSS End */
+/* Homepage Slider CSS End */
+
+
+
+/* Globe Countries Introduction CSS */
+/* Basic Introduction Section CSS */
+#globecountries-intro {
+	position:relative;
+  background: linear-gradient(to right, #000428, #004e92);
+  padding:15px 0;
+  text-align:center;
+  color:#d4af37;
+  width:100%;
+  height:550px;
+}
+/* Basic Introduction Section CSS End */
+
+/* Introduction - Description CSS */
+#globecountries-intro #globecountries-description {
+	position:relative;
+  width:30%;
+  left:1%;
+}
+
+#globecountries-intro #globecountries-description h1 {
+	font-family:'Lilita One';
+}
+
+#globecountries-intro #globecountries-description p {
+	font-family:'Sniglet';
+	font-size:16px;
+}
+/* Introduction - Description CSS End */
+
+/* Introduction - World Map CSS */
+#globecountries-intro #globecountries-worldmap {
+	position:absolute;
+  width:65%;
+  height:94%;
+  top:2%;
+  left:32%;
+
+}
+
+#globecountries-intro #globecountries-worldmap iframe {
+	position:absolute;
+	top:0;
+	width:100%;
+	height:90%;
+	left:1%;
+	border:2px solid #d4af37;
+}
+
+#globecountries-intro #globecountries-worldmap p {
+	position:absolute;
+	width:90%;
+	bottom:0;
+	font-family:'Oswald';
+	font-size:16px;
+}
+/* Introduction - World Map CSS End */
+
+/* Introduction - TOI CSS */
+#globecountries-intro #globecountries-toi {
+	position:absolute;
+  border:1px solid #f00;
+  top:42.5%;
+  width:30%;
+  left:1%;
+}
+
+#globecountries-intro #globecountries-toi table {
+	position:absolute;
+	width:100%;
+	border-collapse:collapse;
+	background-color:#fff;
+}
+
+#globecountries-intro #globecountries-toi th, #globecountries-intro #globecountries-toi tr, #globecountries-intro #globecountries-toi td{
+	border:1px solid #ddd;
+}
+
+#globecountries-toi table tr:nth-child(even) {
+	background-color:#ddd;
+}
+/* Introduction - TOI CSS End */
+/* Globe Countries Introduction CSS End */
+
+
+
+/* Globe Countries Map Types Section CSS */
+/* Basic Map Types Section CSS */
+#globecountries-maptypes {
+  position:relative;
+  width:100%;
+  height:700px;
+  background:linear-gradient(to right, #43cea2, #185a9d);
+  background:linear-gradient(to bottom, #200122, #6f0000);
+  color:#;
+}
+/* Basic Map Types Section CSS End */
+
+/* Blue Marble Image CSS */
+#globecountries-maptypes #globecountries-bluemarble {
+  position:absolute;
+  top:0;
+  left:0;
+  width:50%;
+  height:700px;
+}
+
+#globecountries-maptypes #globecountries-bluemarble img{
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+/* Blue Marble Image CSS End */
+
+/* Map Types Information CSS */
+#globecountries-maptypes #globecountries-mapsinfo {
+  position:absolute;
+  top:2%;
+  left:50%;
+  width:50%;
+  text-align:center;
+}
+
+#globecountries-maptypes #globecountries-mapsinfo h2 {
+  color:#d4af37;
+  font-family:'Concert One';
+}
+
+#globecountries-maptypes #globecountries-mapsinfo p {
+  position:absolute;
+  width:100%;
+  height:100%;
+  font-size:16px;
+  font-family:'Sniglet';
+  color:#d4af37;
+}
+/* Map Types Information CSS End */
+/* Globe Countries Map Types Section CSS End */
+
+
+/* Ipsum Section CSS */
+#globecountries-ipsum {
+  width:100%;
+  height:400px;
+  background:linear-gradient(to right, #360033, #0b8793);
+  color:#556b2f;
+}
+/* Ipsum Section CSS End */
+
+
+/* Footer CSS */
+footer {
+  position:relative;
+  width:100%;
+  height:300px;
+  background-color:#110c11;
+  color:#0f0;
+}
+
+footer ul {
+  
+}
+
+footer ul li {
+
+}
+
+#sharebutton-container {
+  position:absolute;
+  float:left;
+  display:flex;
+  height:70px;
+  background-color:#fff;
+  border-radius:15px;
+  font-size:40px;
+  right:5%;
+  top:25%;
+}
+
+#sharebutton-container a i {
+  top:50%;
+  margin:0.5em;
+  font-size:40px;
+}
+
+#sharebutton-container svg {
+  padding:0.5em;
+  margin-right:40px;
+  font-size:40px;
+}
+/* Footer CSS End*/
+
+
+
+
+
+
+footer {
+  float:left;
+}
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  background-color: #777
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #43648c
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998;
+  border-color: #3b5998;
+}
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #2d4373;
+  border-color: #2d4373;
+}
+
+.resp-sharing-button--twitter {
+  background-color: #55acee;
+  border-color: #55acee;
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  background-color: #2795e9;
+  border-color: #2795e9;
+}
+
+.resp-sharing-button--google {
+  background-color: #dd4b39;
+  border-color: #dd4b39;
+}
+
+.resp-sharing-button--google:hover,
+.resp-sharing-button--google:active {
+  background-color: #c23321;
+  border-color: #c23321;
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C;
+  border-color: #35465C;
+}
+
+.resp-sharing-button--tumblr:hover,
+.resp-sharing-button--tumblr:active {
+  background-color: #222d3c;
+  border-color: #222d3c;
+}
+
+.resp-sharing-button--email {
+  background-color: #777777;
+  border-color: #777777;
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  background-color: #5e5e5e;
+  border-color: #5e5e5e;
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c;
+  border-color: #bd081c;
+}
+
+.resp-sharing-button--pinterest:hover,
+.resp-sharing-button--pinterest:active {
+  background-color: #8c0615;
+  border-color: #8c0615;
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5;
+  border-color: #0077b5;
+}
+
+.resp-sharing-button--linkedin:hover,
+.resp-sharing-button--linkedin:active {
+  background-color: #046293;
+  border-color: #046293;
+}
+
+.resp-sharing-button--reddit {
+  background-color: #5f99cf;
+  border-color: #5f99cf;
+}
+
+.resp-sharing-button--reddit:hover,
+.resp-sharing-button--reddit:active {
+  background-color: #3a80c1;
+  border-color: #3a80c1;
+}
+
+.resp-sharing-button--telegram {
+  background-color: #54A9EB;
+}
+
+.resp-sharing-button--telegram:hover {
+  background-color: #4B97D1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries CSS */
+/* Small Laptop Screen || Tablet in Landscape Mode Screen Media Queries CSS */
+@media only screen and (max-width:1024px) {
+  
+}
+
+
+@media only screen and (max-device-width:1024px) {
+
+}
+/* Small Laptop Screen || Tablet in Landscape Mode Screen Media Queries CSS End */
+
+
+
+
+/* Tablet Screen in Portrait Mode Media Queries CSS */
+@media only screen and (max-width:768px) {
+  #navmenu {display:none;}
+  #menu-icon {display:block;}
+  #sidebar {display:block;}
+}
+
+@media only screen and (max-device-width:768px) {
+	#navmenu {display:none;}
+  #menu-icon {display:block;}
+  #sidebar {display:block;}
+  
+  .slider-container {display:none;}
+  
+  #globecountries-intro {margin: 94px auto 0;}
+}
+/* Tablet Screen in Portrait Mode Media Queries CSS End */
+
+
+
+
+/* Mobile Phone Screen in Landscape Mode Media Queries CSS */
+@media only screen and (max-width:640px) {
+  
+}
+
+@media only screen and (max-device-width:640px) {
+  
+}
+/* Mobile Phone Screen in Landscape Mode Media Queries CSS End */
+
+
+
+
+/* Mobile Phone Screen in Portrait Mode Media Queries CSS */
+@media only screen and (max-width:480px) {
+	#navmenu {display:none;}
+  
+  #menu-icon{display:block; right:4%;}
+  #sidebar {display:block; width:100%;right:-100%;}
+  #sidebar ul li {width:100%;}
+  
+  .slider-container {display:none;}
+  
+  #globecountries-intro {}
+  
+  #globecountries-intro #globecountries-description {
+    width:95%;
+    top:1%;
+  }
+  
+  #globecountries-intro #globecountries-worldmap {
+    width:95%;
+  }
+  
+  #globecountries-intro #globecountries-weeklyfacts {
+    display:none;
+
+}
+
+@media only screen and (max-device-width:480px) {
+	#navmenu {display:none;}
+  
+  #menu-icon{display:block; right:4%;}
+  #sidebar {display:block; width:100%;right:-100%;}
+  
+  .slider-container {display:none;}
+  
+  #globecountries-intro {}
+  
+  #globecountries-intro #globecountries-description {
+    width:95%;
+    top:1%;
+  }
+  
+  #globecountries-intro #globecountries-worldmap {
+    width:95%;
+  }
+  
+  #globecountries-intro #globecountries-weeklyfacts {
+    display:none;
+
+}
+}
+/* Mobile Phone Screen in Portrait Mode Media Queries CSS End */
+
+
+
+
+/* Extremely Small Screens Media Queries CSS */
+@media only screen and (max-width:320px) {
+	
+}
+
+@media only screen and (max-device-width:320px) {
+	
+}
+/* Extremely Small Screens Media Queries CSS End */ 
+/* Media Queries CSS End */
