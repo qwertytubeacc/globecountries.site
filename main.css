@@ -8,6 +8,14 @@ body {
   text-align:center;
 }
 
+#h1 {
+  margin:30px;
+}
+
+#h2 {
+  margin:30px;
+}
+
 h1 span {
   font-family:'Lilita One';
   font-size:32px;
@@ -15,8 +23,6 @@ h1 span {
   padding:20px;
   background-color:#000;
   border-radius:10px;
-  margin-top:5px;
-  margin-bottom:200px;
 }
 
 h2 span {
@@ -27,8 +33,6 @@ h2 span {
   padding:15px;
   background-color:#000;
   border-radius:10px;
-  margin-top:15px;
-  margin-bottom:5px;
 }
 
 p {
