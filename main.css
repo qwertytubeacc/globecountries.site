@@ -5,6 +5,7 @@ body {
   margin:0;
   padding:0;
   background-color:#dcdcdc;
+  text-align:center;
 }
 
 h1 {
@@ -17,17 +18,20 @@ h2 {
   font-family:'Concert One';
   font-size:24px;
   color:#ffd700;
+  text-align:center;
 }
 
 p {
   font-family:'Sniglet';
   font-size:16px;
   color:#d4af37;
+  text-align:center;
 }
 
 img {
-  width:300px;
-  height:200px;
+  top:50%;
+  width:50%;
+  height:50%;
 }
 /* Basic CSS End */
 
