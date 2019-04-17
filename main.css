@@ -21,6 +21,11 @@ p {
   font-family:'Sniglet';
   font-size:16px;
 }
+
+img {
+  width:9em;
+  height:6em
+}
 /* Basic CSS End */
 
 
