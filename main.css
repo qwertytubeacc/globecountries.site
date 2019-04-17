@@ -10,21 +10,24 @@ body {
 h1 {
   font-family:'Lilita One';
   font-size:32px;
+  color:#d4af37;
 }
 
 h2 {
   font-family:'Concert One';
   font-size:24px;
+  color:#ffd700;
 }
 
 p {
   font-family:'Sniglet';
   font-size:16px;
+  color:#d4af37;
 }
 
 img {
-  width:9em;
-  height:6em
+  width:300px;
+  height:200px;
 }
 /* Basic CSS End */
 
