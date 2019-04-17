@@ -12,6 +12,9 @@ h1 {
   font-family:'Lilita One';
   font-size:32px;
   color:#d4af37;
+  padding:20px;
+  background-color:#000;
+  border-radius:10px;
 }
 
 h2 {
@@ -19,6 +22,9 @@ h2 {
   font-size:24px;
   color:#ffd700;
   text-align:center;
+  padding:15px;
+  background-color:#000;
+  border-radius:10px;
 }
 
 p {
