@@ -8,7 +8,7 @@ body {
   text-align:center;
 }
 
-h1 {
+h1 span {
   font-family:'Lilita One';
   font-size:32px;
   color:#d4af37;
@@ -17,7 +17,7 @@ h1 {
   border-radius:10px;
 }
 
-h2 {
+h2 span {
   font-family:'Concert One';
   font-size:24px;
   color:#ffd700;
