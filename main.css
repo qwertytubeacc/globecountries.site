@@ -16,12 +16,14 @@ body {
   position:absolute;
   top:22.5%;
   left:40%;
+  position:fixed;
 }
 
 #h2 {
   position:absolute;
-  top:60%;
+  top:70%;
   left:42%;
+  position:fixed;
 }
 
 h1 span {
