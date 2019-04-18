@@ -60,7 +60,7 @@ p {
     position: absolute; /* Takes this element out the document flow */
     z-index:10; /* Just in case of z-index issues, remove if not needed */
     top:25%; 
-    font-size:50%;
+    font-size:70vw;
     color:#d4af37;
     text-align:center;
     left:15%;
