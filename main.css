@@ -42,13 +42,21 @@ p {
   text-align:center;
 }
 
+#logo {
+  position:relative;
+	display:inline-block;
+}
+
 i {
+position:absolute;
+z-index:10;
 top:50%;
 font-size:50%;
 color:#d4af37;
 }
 
 img {
+	position:absolute;
   top:50%;
   width:50%;
   height:50%;
