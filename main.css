@@ -59,11 +59,11 @@ p {
 .cpu {
     position: absolute; /* Takes this element out the document flow */
     z-index:10; /* Just in case of z-index issues, remove if not needed */
-    top:22%; 
+    top:20%; 
     font-size:75vw;
     color:#d4af37;
     text-align:center;
-    left:8%;
+    left:6%;
 }
 /* Basic CSS End */
 
