@@ -54,7 +54,6 @@ p {
 
 .logo {
    position:relative;
-   left:50%;
 }
 
 .cpu {
@@ -64,7 +63,7 @@ p {
     font-size:640px;
     color:#d4af37;
     text-align:center;
-    left:50%;
+    margin:auto
 }
 /* Basic CSS End */
 
