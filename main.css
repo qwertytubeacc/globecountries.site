@@ -2,7 +2,6 @@
 
 /* Basic CSS */
 body {
-  position:fixed;
   margin:0;
   padding:0;
   width:100%;
@@ -13,11 +12,11 @@ body {
 }
 
 #h1 {
-  top:2%;
+  top:1%;
 }
 
 #h2 {
-  top:8%;
+  top:10%;
 }
 
 h1 span {
