@@ -45,9 +45,9 @@ p {
 }
 
 .logo {
-    position: relative;
-    display: inline-block; /*Just for example, so this div is the same size as the image*/
-    width:100vw;
+   position: relative;
+   display: inline-block; /*Just for example, so this div is the same size as the image*/
+   width:100%;
 }
 
 .cpu {
