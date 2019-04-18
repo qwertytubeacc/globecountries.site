@@ -41,7 +41,7 @@ h2 span {
   color:#ffd700;
   text-align:center;
   padding:12px;
-  background-color:#800080;
+  background:linear-gradient(to bottom, #d76d77, #ffaf7b);
   border-radius:10px;
 }
 
