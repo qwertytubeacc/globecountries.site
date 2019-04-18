@@ -15,13 +15,13 @@ body {
 #h1 {
   position:absolute;
   top:1%;
-  margin:auto;
+  left:45%;
 }
 
 #h2 {
   position:absolute;
-  top:10%;
-  margin:auto;
+  top:8%;
+  left:48%;
 }
 
 h1 span {
