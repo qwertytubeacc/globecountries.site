@@ -25,7 +25,7 @@ h1 span {
   top:5%;
   color:#d4af37;
   padding:16px;
-  background-color:#800080;
+  background:linear-gradient(to bottom, #4568dc, #b06ab3);
   border-radius:10px;
 }
 
