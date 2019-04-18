@@ -53,11 +53,10 @@ p {
 .cpu {
     position: absolute; /* Takes this element out the document flow */
     z-index:10; /* Just in case of z-index issues, remove if not needed */
-    text-align:center;
     top:60px; 
     font-size:640px;
     color:#d4af37;
-    width:100%;
+    margin:auto;
 }
 
 img {
@@ -66,6 +65,7 @@ img {
   top:70px;
   width:600px;
   height:400px;
+  margin:auto;
 }
 /* Basic CSS End */
 
