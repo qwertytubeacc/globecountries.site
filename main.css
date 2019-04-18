@@ -4,7 +4,8 @@
 body {
   margin:0;
   padding:0;
-  background-image:url("https://drive.google.com/uc?id=1RMn-Tl-5bCI55W4VIdOU9c1xBA6gRCxD");
+  background:url(https://drive.google.com/uc?id=1RMn-Tl-5bCI55W4VIdOU9c1xBA6gRCxD);
+  background-size:100%;
   text-align:center;
 }
 
@@ -22,7 +23,7 @@ h1 span {
   top:5%;
   color:#d4af37;
   padding:20px;
-  background-color:#000;
+  background-color:#f5f5f5;
   border-radius:10px;
 }
 
@@ -33,7 +34,7 @@ h2 span {
   color:#ffd700;
   text-align:center;
   padding:15px;
-  background-color:#000;
+  background-color:#f5f5f5;
   border-radius:10px;
 }
 
