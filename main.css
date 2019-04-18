@@ -13,11 +13,13 @@ body {
 }
 
 #h1 {
+  position:absolute;
   top:1%;
 }
 
 #h2 {
-  top:15%;
+  position:absolute;
+  top:40%;
 }
 
 h1 span {
@@ -26,7 +28,7 @@ h1 span {
   top:5%;
   color:#d4af37;
   padding:16px;
-  background:linear-gradient(to bottom, #4568dc, #b06ab3);
+  background:linear-gradient(to bottom, #3a1c71, #d76d77);
   border-radius:10px;
 }
 
