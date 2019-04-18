@@ -60,7 +60,8 @@ p {
     top:60px; 
     font-size:640px;
     color:#d4af37;
-    margin:auto;
+    text-align:center;
+    left:50%;
 }
 /* Basic CSS End */
 
