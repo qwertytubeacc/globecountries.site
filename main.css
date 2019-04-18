@@ -50,9 +50,9 @@ p {
 .cpu {
     position: absolute; /* Takes this element out the document flow */
     z-index:10; /* Just in case of z-index issues, remove if not needed */
-    left:35px; /* Move pin1 50px left */
+    left:25px; /* Move pin1 50px left */
     top: 100px; /* Move pin1 100px down */
-    font-size:310px;
+    font-size:640px;
     color:#d4af37;
 }
 
@@ -60,10 +60,10 @@ p {
 
 img {
   position:absolute;
-  left:35px;
+  left:25px;
   top:100px;
-  width:300px;
-  height:200px;
+  width:600px;
+  height:400px;
 }
 /* Basic CSS End */
 
