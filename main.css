@@ -14,13 +14,13 @@ body {
 
 #h1 {
   position:absolute;
-  top:15%;
+  top:22.5%;
   left:40%;
 }
 
 #h2 {
   position:absolute;
-  top:22.5%;
+  top:40%;
   left:42%;
 }
 
@@ -59,7 +59,7 @@ p {
 .cpu {
     position: absolute; /* Takes this element out the document flow */
     z-index:10; /* Just in case of z-index issues, remove if not needed */
-    top:20%; 
+    top:0; 
     font-size:75vw;
     color:#d4af37;
     text-align:center;
