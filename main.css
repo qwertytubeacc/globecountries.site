@@ -19,6 +19,7 @@ body {
 h1 span {
   font-family:'Lilita One';
   font-size:32px;
+  top:5%;
   color:#d4af37;
   padding:20px;
   background-color:#000;
@@ -28,6 +29,7 @@ h1 span {
 h2 span {
   font-family:'Concert One';
   font-size:24px;
+  top:10%;
   color:#ffd700;
   text-align:center;
   padding:15px;
@@ -51,7 +53,7 @@ p {
 .cpu {
     position: absolute; /* Takes this element out the document flow */
     z-index:10; /* Just in case of z-index issues, remove if not needed */
-    left:50%; /* Move pin1 50px left */
+    left:30%; /* Move pin1 50px left */
     top: 100px; /* Move pin1 100px down */
     font-size:640px;
     color:#d4af37;
