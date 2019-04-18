@@ -25,7 +25,7 @@ h1 span {
   top:5%;
   color:#d4af37;
   padding:16px;
-  background-color:#f5f5f5;
+  background-color:#800080;
   border-radius:10px;
 }
 
@@ -36,7 +36,7 @@ h2 span {
   color:#ffd700;
   text-align:center;
   padding:12px;
-  background-color:#f5f5f5;
+  background-color:#800080;
   border-radius:10px;
 }
 
@@ -61,7 +61,7 @@ p {
     font-size:640px;
     color:#d4af37;
     text-align:center;
-    left:50%;
+    left:50vw;
 }
 /* Basic CSS End */
 
