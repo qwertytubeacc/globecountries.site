@@ -21,7 +21,7 @@ body {
 
 #h2 {
   position:absolute;
-  top:70%;
+  top:62%;
   left:42%;
   position:fixed;
 }
@@ -66,6 +66,7 @@ p {
     color:#d4af37;
     text-align:center;
     left:5%;
+    position:fixed;
 }
 /* Basic CSS End */
 
