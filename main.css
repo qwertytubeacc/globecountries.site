@@ -53,7 +53,7 @@ p {
 .cpu {
     position: absolute; /* Takes this element out the document flow */
     z-index:10; /* Just in case of z-index issues, remove if not needed */
-    left:300px;
+    text-align:center;
     top:60px; 
     font-size:640px;
     color:#d4af37;
