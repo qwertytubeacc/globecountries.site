@@ -50,17 +50,15 @@ p {
 .cpu {
     position: absolute; /* Takes this element out the document flow */
     z-index:10; /* Just in case of z-index issues, remove if not needed */
-    left:25px; /* Move pin1 50px left */
+    left:0; /* Move pin1 50px left */
     top: 100px; /* Move pin1 100px down */
     font-size:640px;
     color:#d4af37;
 }
 
-
-
 img {
   position:absolute;
-  left:25px;
+  left:0;
   top:100px;
   width:600px;
   height:400px;
