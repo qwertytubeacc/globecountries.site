@@ -15,11 +15,13 @@ body {
 #h1 {
   position:absolute;
   top:1%;
+  left:50%;
 }
 
 #h2 {
   position:absolute;
-  top:40%;
+  top:10%;
+  left:50%;
 }
 
 h1 span {
@@ -61,7 +63,7 @@ p {
     font-size:640px;
     color:#d4af37;
     text-align:center;
-    left:50vw;
+    left:50%;
 }
 /* Basic CSS End */
 
