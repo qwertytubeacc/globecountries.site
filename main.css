@@ -42,6 +42,13 @@ p {
   text-align:center;
 }
 
+i {
+	top:50%;
+	width:50%;
+	height:50%;
+	color:#d4af37;
+}
+
 img {
   top:50%;
   width:50%;
