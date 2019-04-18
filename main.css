@@ -44,15 +44,15 @@ p {
 
 #logo {
   position:relative;
-	display:inline-block;
+  display:inline-block;
 }
 
 i {
-position:absolute;
-z-index:10;
-top:50%;
-font-size:50%;
-color:#d4af37;
+  position:absolute;
+  z-index:10;
+  top:50%;
+  font-size:350px;
+  color:#d4af37;
 }
 
 img {
