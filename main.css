@@ -15,13 +15,13 @@ body {
 #h1 {
   position:absolute;
   top:1%;
-  left:45%;
+  left:40%;
 }
 
 #h2 {
   position:absolute;
-  top:8%;
-  left:48%;
+  top:9%;
+  left:44%;
 }
 
 h1 span {
@@ -60,10 +60,10 @@ p {
     position: absolute; /* Takes this element out the document flow */
     z-index:10; /* Just in case of z-index issues, remove if not needed */
     top:10%; 
-    font-size:640px;
+    font-size:750px;
     color:#d4af37;
     text-align:center;
-    left:40%;
+    left:30%;
 }
 /* Basic CSS End */
 
