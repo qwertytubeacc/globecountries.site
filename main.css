@@ -42,24 +42,16 @@ p {
   text-align:center;
 }
 
-#logo {
-  position:relative;
-  display:inline-block;
+.logo {
+    position: relative;
+    display: inline-block; /*Just for example, so this div is the same size as the image */
 }
 
-i {
-  position:absolute;
-  z-index:10;
-  top:50%;
-  font-size:350px;
-  color:#d4af37;
-}
-
-img {
-	position:absolute;
-  top:50%;
-  width:50%;
-  height:50%;
+.cpu {
+    position: absolute; /* Takes this element out the document flow */
+    z-index:10; /* Just in case of z-index issues, remove if not needed */
+    left: 50px; /* Move pin1 50px left */
+    top: 100px; /* Move pin1 100px down */
 }
 /* Basic CSS End */
 
