@@ -53,7 +53,8 @@ p {
 }
 
 .logo {
-   position: relative;
+   position:relative;
+   left:50%;
 }
 
 .cpu {
