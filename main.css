@@ -2,18 +2,18 @@
 
 /* Basic CSS */
 body {
-  background-color:#000;
+  position:fixed;
   margin:0;
   padding:0;
+  background:url(https://drive.google.com/uc?id=1RMn-Tl-5bCI55W4VIdOU9c1xBA6gRCxD) no-repeat;
 }
-
 #all {
   position:fixed;
   margin:0;
   padding:0;
   width:100%;
   height:100%;
-  background:url(https://drive.google.com/uc?id=1RMn-Tl-5bCI55W4VIdOU9c1xBA6gRCxD) no-repeat;
+  background-color:#000;
   background-size:100%;
   text-align:center;
 }
