@@ -34,21 +34,21 @@ body {
 
 h1 span {
   font-family:'Lilita One';
-  font-size:32px;
+  font-size:36px;
   top:5%;
   color:#d4af37;
-  padding:16px;
+  padding:20px;
   background:linear-gradient(to bottom, #3a1c71, #d76d77);
   border-radius:10px;
 }
 
 h2 span {
   font-family:'Concert One';
-  font-size:24px;
+  font-size:28px;
   top:10%;
-  color:#ffd700;
+  color:#d4af37;
   text-align:center;
-  padding:12px;
+  padding:16px;
   background:linear-gradient(to bottom, #d76d77, #ffaf7b);
   border-radius:10px;
 }
