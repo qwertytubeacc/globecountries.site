@@ -7,6 +7,7 @@ body {
   padding:0;
   background:url(https://drive.google.com/uc?id=1RMn-Tl-5bCI55W4VIdOU9c1xBA6gRCxD) no-repeat;
 }
+
 #all {
   position:fixed;
   margin:0;
@@ -76,12 +77,12 @@ p {
 }
 
 #confetti{
-	height: 100%;
-	left: 0px;
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	z-index: -1;
+   height: 100%;
+   left: 0px;
+   position: fixed;
+   top: 0px;
+   width: 100%;
+   z-index: 100;
 }
 /* Basic CSS End */
 
