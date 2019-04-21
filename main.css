@@ -50,7 +50,7 @@ h2 span {
   color:#d4af37;
   text-align:center;
   padding:16px;
-  background:linear-gradient(to bottom, #d76d77, #ffaf7b);
+  background:linear-gradient(to top, #d76d77, #3a1c71);
   border-radius:10px;
 }
 
@@ -74,15 +74,6 @@ p {
     text-align:center;
     left:5%;
     position:fixed;
-}
-
-#confetti{
-   height: 100px;
-   left: 0px;
-   position: fixed;
-   top: 0px;
-   width: 100px;
-   z-index: 100;
 }
 /* Basic CSS End */
 
